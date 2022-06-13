@@ -1,0 +1,36 @@
+/* 100 */
+#page-header {
+  background-color: gray;
+}
+
+/* 1 */
+header {
+  background-color: aquamarine;
+}
+
+/* 10 */
+.header {
+  background-color: teal;
+}
+
+
+[href="https://"] {
+  text-decoration: none;
+  color: red;
+}
+
+.header .nav-item {
+  color: aqua;
+}
+
+.nav-link.link {
+  color: red;
+}
+
+.btn {
+  font-family: inherit;
+}
+
+.link {
+  color: currentColor;
+}
