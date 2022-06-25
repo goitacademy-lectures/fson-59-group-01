@@ -1,36 +1,325 @@
-/* 100 */
-#page-header {
-  background-color: gray;
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
 }
 
-/* 1 */
-header {
-  background-color: aquamarine;
+/**
+  |============================
+  | Частковий reset стилів
+  |============================
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-
-/* 10 */
-.header {
-  background-color: teal;
+img {
+  display: block;
 }
-
-
-[href="https://"] {
-  text-decoration: none;
-  color: red;
-}
-
-.header .nav-item {
-  color: aqua;
-}
-
-.nav-link.link {
-  color: red;
-}
-
-.btn {
-  font-family: inherit;
-}
-
 .link {
+  text-decoration: none;
   color: currentColor;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common styles */
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.container {
+  width: 1378px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+.main-title {
+  width: 386px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+
+  margin-bottom: 40px;
+}
+.section-title {
+  margin-bottom: 60px;
+
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+}
+.logo {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  margin-right: 228px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.logo-light {
+  color: #939393;
+}
+
+/*  Header  */
+.page-header {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.header-container {
+}
+.nav-list {
+}
+.nav-item {
+  margin-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #263238;
+}
+.header-btn {
+  margin-left: auto;
+  padding: 20px 56px;
+  min-width: 320px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+
+  background-color: transparent;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*  Hero section  */
+.hero {
+  padding-top: 0;
+}
+
+.hero-container {
+}
+
+.hero-wrapper {
+  position: relative;
+
+  width: 540px;
+  margin-right: 144px;
+
+  display: inline-block;
+}
+.hero-text {
+  margin-bottom: 60px;
+
+  font-size: 24px;
+  line-height: 1.5;
+  color: #8f95a5;
+}
+.hero-btn {
+  padding: 23px 64px;
+  min-width: 426px;
+
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  background-color: #263238;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero-pic {
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+
+.hero-img {
+  max-height: 510px;
+}
+
+/* Skills section */
+.skills-title {
+  text-align: center;
+}
+.skills-list {
+}
+
+.skills-item {
+  padding: 32px 18px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.skills-item:first-child {
+}
+.skills-item:last-child {
+}
+.skills-box {
+}
+.skills-item-wrapper {
+  margin-right: 114px;
+}
+
+.skills-img {
+  margin-bottom: 24px;
+}
+
+.skills-subtitle {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #263238;
+}
+.skills-text {
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8f95a5;
+}
+.skills-text:nth-last-child(2) {
+  padding-bottom: 0;
+  margin-bottom: 30px;
+}
+.skills-link {
+  display: inline-block;
+  padding: 15px 52px;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/* About section */
+.about .container {
+}
+
+.about-list {
+}
+
+.about-left-side {
+  width: 652px;
+}
+
+.about-item {
+  max-width: 108px;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 131px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #8f95a5;
+
+  margin-bottom: 30px;
+}
+
+.img-about {
+  margin-left: auto;
+}
+.about-heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: #2a3246;
+
+  padding-bottom: 6px;
+}
+.about-descr {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: #8f95a5;
+}
+
+/* Pricing section */
+.pricing-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: #263238;
+}
+.pricing-text {
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: #8f95a5;
+}
+.pricing-meta {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.pricing-meta-cost {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #263238;
+}
+
+.pricing-meta-period {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #546269;
+}
+
+/* Contact section */
+.contacts-descr {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8f95a5;
+}
+.subscribe-form-input {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #8f95a5;
+}
+.subscribe-form-btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  background-color: #263238;
+  border-radius: 10px;
+}
+
+/* Footer section */
+.footer-link {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #8f95a5;
 }
